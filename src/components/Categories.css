@@ -4,10 +4,15 @@
   text-align: center;
 }
 
-span {
-  font-size: 20rem;
+.categories-container span {
+  font-size: 10rem;
+  color: #555;
 }
 
-h1 {
-  font-size: 4rem;
+.categories-container span span{
+  color: #0290ff;
+}
+
+.categories-container h1 {
+  font-size: 2rem;
 }
