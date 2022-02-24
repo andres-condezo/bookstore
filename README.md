@@ -27,7 +27,7 @@
 
 ## Live Demo
 
-[Math magicians Live Demo Link](https://andres-condezo.github.io/bookstore/)
+[Bookstore Live Demo Link](https://andres-condezo.github.io/bookstore/)
 
 ## Getting Started
 
