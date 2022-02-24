@@ -1,0 +1,36 @@
+.book-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #bbb;
+  padding: 1rem;
+}
+
+.book-container span {
+  font-size: 1rem;
+}
+
+.block-r {
+  display: flex;
+  gap: 4rem;
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+}
+
+.progress-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-text .stat-number {
+  font-size: 4rem;
+}
+
+.progress-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
