@@ -6,14 +6,14 @@ const NavBar = () => (
   <nav>
     <ul>
       <li>
-        <NavLink className="logo" to="/">
+        <NavLink className="logo" to="/bookstore">
           Bookstore CMS
         </NavLink>
       </li>
       <li>
         <NavLink
           className={({ isActive }) => (isActive ? 'active' : '')}
-          to="/"
+          to="/bookstore"
         >
           BOOKS
         </NavLink>
@@ -29,7 +29,7 @@ const NavBar = () => (
     </ul>
     <NavLink
       className={({ isActive }) => (isActive ? 'active' : '')}
-      to="/"
+      to="/bookstore"
     >
       <figure>
         <img className="user-icon" alt="User settings" src={user} />
