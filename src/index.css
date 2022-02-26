@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  box-shadow: 16px 22px 37px -14px rgba(0,0,0,0.3);
-  -webkit-box-shadow: 16px 22px 37px -14px rgba(0,0,0,0.3);
-  -moz-box-shadow: 16px 22px 37px -14px rgba(0,0,0,0.3);
+  box-shadow: 16px 22px 37px -14px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 16px 22px 37px -14px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 16px 22px 37px -14px rgba(0, 0, 0, 0.3);
 }

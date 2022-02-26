@@ -16,7 +16,7 @@
   gap: 1rem;
 }
 
-.form-inputs input, 
+.form-inputs input,
 .form-inputs select {
   background-color: #fff;
   color: #444;
@@ -24,7 +24,6 @@
   border: 1px solid #bbb;
   outline: none;
 }
-
 
 .form-inputs input {
   width: 30%;
