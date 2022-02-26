@@ -2,8 +2,8 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import './ItemBook.css';
-import progress from '../img/progress.png';
 import { deleteBook } from '../redux/books/books';
+import progress from '../img/progress.png';
 
 const ItemBook = (props) => {
   const dispatch = useDispatch();
@@ -40,10 +40,12 @@ const ItemBook = (props) => {
             <span className="stat-text">Completed</span>
           </div>
         </div>
-        <div className="progress-info">
-          <span className="chapter-title">Current chapter</span>
-          <span className="chapter-number">Chapter 3</span>
-          <button type="button">UPDATE PROGRESS</button>
+        <div className="progress-info-container">
+          <div className="progress-info">
+            <span className="chapter-title">CURRENT CHAPTER</span>
+            <span className="chapter-number">Chapter 3</span>
+          </div>
+          <button className="btn-a-solid" type="button">UPDATE PROGRESS</button>
         </div>
       </div>
     </div>
