@@ -5,6 +5,8 @@
 
 > The Bookstore is an app that displays a list of books and allows you to add and remove books from that list.
 
+![screenshot](./src/img/screenshot.png)
+
 ## Built With
 
 ### - Major languages:
