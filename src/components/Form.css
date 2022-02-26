@@ -8,9 +8,51 @@
 
 .form-container h1 {
   font-size: 2rem;
+  color: #555;
 }
 
 .form-inputs {
   display: flex;
   gap: 1rem;
+}
+
+.form-inputs input, 
+.form-inputs select {
+  background-color: #fff;
+  color: #444;
+  padding: 1rem;
+  border: 1px solid #bbb;
+  outline: none;
+}
+
+
+.form-inputs input {
+  width: 30%;
+}
+
+.form-inputs select {
+  width: 25%;
+}
+
+::placeholder {
+  color: grey;
+}
+
+.btn-b-solid {
+  width: 15%;
+  background-color: #0290ff;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-b-solid:hover {
+  background-color: #72bfff;
+  color: #fff;
+}
+
+.btn-b-solid:active {
+  background-color: #00325b;
+  color: #fff;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -31,4 +33,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  box-shadow: 16px 22px 37px -14px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 16px 22px 37px -14px rgba(0,0,0,0.3);
+  -moz-box-shadow: 16px 22px 37px -14px rgba(0,0,0,0.3);
 }
