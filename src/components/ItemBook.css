@@ -3,7 +3,7 @@
   height: 14rem;
   display: flex;
   justify-content: space-between;
-  border: 1px solid #bbb;
+  border: 1px solid #ddd;
   padding: 2rem;
 }
 
@@ -12,6 +12,7 @@
 }
 
 .block-l {
+  width: 35%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -52,6 +53,12 @@
   cursor: pointer;
 }
 
+.block-l button:not(:first-child)::before {
+  content: "";
+  border-left: 1px solid #ddd;
+  padding: 0 0 0 2.5rem;
+}
+
 .block-l button:hover {
   color: #72bfff;
 }
@@ -61,9 +68,9 @@
 }
 
 .block-r {
+  width: 65%;
   display: flex;
-  justify-content: center;
-  gap: 8rem;
+  justify-content: space-evenly;
 }
 
 .stats {
