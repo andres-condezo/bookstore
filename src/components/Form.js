@@ -45,21 +45,24 @@ const Form = () => {
     'Westerns',
   ];
 
+  const isTrue = true;
+
   return (
     <form onSubmit={submitBookToStore} className="form-container">
       <h1>ADD NEW BOOK</h1>
       <div className="form-inputs">
         <input name="title" type="text" onChange={handleChange} placeholder="Book Title" required />
         <input name="author" type="text" onChange={handleChange} placeholder="Book Author" required />
-        <select name="category" id="categories" onChange={handleChange} required>
+        <select name="category" onChange={handleChange} required>
           <option value="">Categories</option>
+          <option disabled={isTrue} value="">----------------</option>
           {
             categoriesArr.map((category) => (
               <option key={category} value={category}>{category}</option>
             ))
           }
         </select>
-        <button type="submit">ADD BOOK</button>
+        <button type="submit" className="btn-b-solid">ADD BOOK</button>
       </div>
     </form>
   );
