@@ -3,16 +3,29 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid #bbb;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .book-container span {
   font-size: 1rem;
 }
 
+.block-l {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ }
+
+ .block-l .info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ }
+
 .block-r {
   display: flex;
-  gap: 4rem;
+  justify-content: center;
+  gap: 8rem;
 }
 
 .stats {
@@ -23,10 +36,15 @@
 .progress-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .progress-text .stat-number {
-  font-size: 4rem;
+  font-size: 3.4rem;
+}
+
+.progress-text .stat-text {
+  font-size: 1.4rem;
 }
 
 .progress-info {
