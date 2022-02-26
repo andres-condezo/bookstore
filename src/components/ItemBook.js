@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import './ItemBook.css';
 import progress from '../img/progress.png';
-import { removeBook } from '../redux/books/books';
+import { deleteBook } from '../redux/books/books';
 
 const ItemBook = (props) => {
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ const ItemBook = (props) => {
   } = props;
 
   const handleRemoveBook = () => {
-    dispatch(removeBook(id));
+    dispatch(deleteBook(id));
   };
 
   return (
